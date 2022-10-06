@@ -1,0 +1,46 @@
+<div class="container">
+
+
+<h2 style="color:  rgb(186, 186, 251);">LOWERCASE</h2>
+<h4>{{ name | lowercase }}</h4>
+
+
+<h2 style="color:  rgb(186, 186, 251);">UPPERCASE</h2>
+<h4>{{ name | uppercase }}</h4>
+
+
+<h2 style="color:  rgb(186, 186, 251);">TITLECASE</h2>
+<h4>{{ message | titlecase }}</h4>
+
+
+<h2 style="color:  rgb(186, 186, 251);">JSON</h2>
+<h4>{{ person | json }}</h4>
+
+
+<h2 style="color:  rgb(186, 186, 251);">SLICES</h2>
+<h4>{{ name | slice:3:5 }}</h4>
+
+<h4>{{num | number}}</h4>
+<h4>{{num | number : '1.2-3' }}</h4>
+<h4>{{num | number : '3.4-5' }}</h4>
+<h4>{{num | number : '3.1-2' }}</h4>
+
+
+<h2 style="color:  rgb(186, 186, 251);">PERCENTAGE</h2>
+<h4>{{num | percent }}</h4>
+
+
+<h2 style="color:  rgb(186, 186, 251);">CURRENCE</h2>
+<h4>{{num | currency }}</h4>
+<h4>{{num | currency : 'INR' }}</h4>
+<h4>{{num | currency : 'INR':'code' }}</h4>
+
+
+
+<h2 style="color:  rgb(186, 186, 251);">DATE</h2>
+<h4>{{day}}</h4>
+<h4>{{day | date:'short'}}</h4>
+<h4>{{day | date:'shortDate'}}</h4>
+<h4>{{day | date:'shortTime'}}</h4>
+
+</div>
